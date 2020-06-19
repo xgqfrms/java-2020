@@ -35,6 +35,10 @@ https://github.com/TypeStrong/ts-node
 
 ```sh
 $ npx ts-node app.ts
+# Cannot find module 'typescript'
+# Require stack:
+# - /Users/xgqfrms-mbp/.npm/_npx/73588/lib/node_modules/ts-node/dist/index.js
+# - /Users/xgqfrms-mbp/.npm/_npx/73588/lib/node_modules/ts-node/dist/bin.js
 
 $ npx ts-node src/app.ts
 
