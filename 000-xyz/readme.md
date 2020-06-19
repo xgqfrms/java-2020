@@ -10,6 +10,14 @@ https://www.cnblogs.com/xgqfrms/p/13167156.html
 
 https://javascript.xgqfrms.xyz/pdfs/TypeScript%20Language%20Specification.pdf
 
+
+> TypeScript auto Build
+
+https://code.visualstudio.com/docs/typescript/typescript-compiling
+
+task.json + vscode
+
+
 ```sh
 # ts to js
 $ tsc app.ts
@@ -18,6 +26,7 @@ $ tsc app.ts
 $ node app.js
 
 ```
+
 
 ## js hack
 
