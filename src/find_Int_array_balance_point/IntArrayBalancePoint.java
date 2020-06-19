@@ -26,12 +26,13 @@ public class IntArrayBalancePoint {
     if (a == null) {
         return -1;
     }
+    // 0l ???
     long sum = 0l;
     long subSum = 0l;
-    for ( int i = 0; i < a.length; i ++ ) {
+    for (int i = 0; i < a.length; i ++) {
         sum += a[i];
     }
-    for (int i = 0; i < a.length; i ++ ) {
+    for (int i = 0; i < a.length; i ++) {
         if (subSum == sum - subSum - a[i]) {
             // System.out.println(a[i]);
             return a[i];
