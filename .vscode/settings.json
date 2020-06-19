@@ -4,5 +4,32 @@
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true
-  }
+  },
+  "editor.formatOnSave": false,
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "alt",
+  "editor.wordWrap": "on",
+  "editor.insertSpaces": true,
+  "files.encoding": "utf8",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1accff",
+    "activityBar.activeBorder": "#df00ad",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#df00ad",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "titleBar.activeBackground": "#00b3e6",
+    "titleBar.inactiveBackground": "#00b3e699",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveForeground": "#15202b99",
+    "statusBar.background": "#00b3e6",
+    "statusBarItem.hoverBackground": "#008bb3",
+    "statusBar.foreground": "#15202b",
+    "activityBar.activeBackground": "#1accff",
+    "statusBar.border": "#00b3e6",
+    "titleBar.border": "#00b3e6"
+  },
+  "peacock.color": "#00b3e6",
 }

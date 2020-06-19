@@ -6,16 +6,15 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Debug (Launch) - Current File",
+      "name": "CodeLens (Launch) - IntArrayBalancePoint",
       "request": "launch",
-      "mainClass": "${file}"
+      "mainClass": "IntArrayBalancePoint",
     },
     {
       "type": "java",
-      "name": "Debug (Launch)-Main<java-2020_6169ed15>",
+      "name": "Debug (Launch) - Current File",
       "request": "launch",
-      "mainClass": "Main",
-      "projectName": "java-2020_6169ed15"
+      "mainClass": "${file}"
     }
   ]
 }

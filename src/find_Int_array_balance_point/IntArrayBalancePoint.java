@@ -1,3 +1,5 @@
+package find_Int_array_balance_point;
+
 // 找出 Int 数组平衡点
 
 /**
@@ -7,12 +9,12 @@
  * 要求找出整型数组的一个平衡点（如果要找出所有平衡点的话，按此方法需要把每一个平衡点都存起来）
  */
 
-public class Test {
+public class IntArrayBalancePoint {
   public static void main(String[] args) {
     int[] a = { - 7 , 1, 5, 2, -5, 1} ;
     int[] b = {2, 3, 4, 2, 4} ;
     int[] c = {2, 3, 4, 3, 2} ;
-    Test t = new Test();
+    IntArrayBalancePoint t = new IntArrayBalancePoint();
     System.out.println(t.findBalancePoint(a));
     System.out.println(t.findBalancePoint(b));
     System.out.println(t.findBalancePoint(c));
@@ -31,7 +33,7 @@ public class Test {
     }
     for (int i = 0; i < a.length; i ++ ) {
         if (subSum == sum - subSum - a[i]) {
-            System.out.println(a[i]);
+            // System.out.println(a[i]);
             return a[i];
         } else {
             subSum += a[i];
@@ -40,6 +42,3 @@ public class Test {
     return -1;
   }
 }
-
-// const test = new Test();
-// test.findBalancePoint([2, 3, 4, 2, 4]);
