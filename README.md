@@ -11,6 +11,9 @@ $ javac --version
 # .java to .class
 $ java Main.java
 
+# execute class
+$ java Main
+
 ```
 
 ## debug
