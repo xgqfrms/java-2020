@@ -27,6 +27,19 @@ $ node app.js
 
 ```
 
+## ts-node
+
+https://stackoverflow.com/questions/33535879/how-to-run-typescript-files-from-command-line
+
+https://github.com/TypeStrong/ts-node
+
+```sh
+$ npx ts-node app.ts
+
+$ npx ts-node src/app.ts
+
+```
+
 
 ## js hack
 
