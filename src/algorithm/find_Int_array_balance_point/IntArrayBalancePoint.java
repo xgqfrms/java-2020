@@ -1,5 +1,4 @@
 package algorithm.find_Int_array_balance_point;
-
 // 找出 Int 数组平衡点
 
 /**
@@ -11,9 +10,9 @@ package algorithm.find_Int_array_balance_point;
 
 public class IntArrayBalancePoint {
   public static void main(String[] args) {
-    int[] a = { - 7 , 1, 5, 2, -5, 1} ;
-    int[] b = {2, 3, 4, 2, 4} ;
-    int[] c = {2, 3, 4, 3, 2} ;
+    int[] a = { - 7 , 1, 5, 2, -5, 1};
+    int[] b = {2, 3, 4, 2, 4};
+    int[] c = {2, 3, 4, 3, 2};
     IntArrayBalancePoint t = new IntArrayBalancePoint();
     System.out.println(t.findBalancePoint(a));
     System.out.println(t.findBalancePoint(b));
@@ -28,7 +27,7 @@ public class IntArrayBalancePoint {
     }
     long sum = 0l;
     long subSum = 0l;
-    for ( int i = 0 ; i < a.length; i ++ ) {
+    for ( int i = 0; i < a.length; i ++ ) {
         sum += a[i];
     }
     for (int i = 0; i < a.length; i ++ ) {
